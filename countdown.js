@@ -1,5 +1,5 @@
 var countdownGenerator = function (x) {
-  count = x;
+  var count = x;
   return function(){
     if(count > 0){
       return console.log("T-Minus", count--);
